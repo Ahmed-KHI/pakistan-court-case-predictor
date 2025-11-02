@@ -1,507 +1,407 @@
-<div align="center"># 🇵🇰 Pakistan Court Case Predictor# 🏛️ Pakistan Court Case Predictor
+<div align="center">
+
+<!-- Pakistani Flag Banner - Green & White -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=01B763&height=150&section=header&text=Pakistan%20Court%20Case%20Predictor&fontSize=35&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=AI-Powered%20Legal%20Assistant%20%7C%20Urdu%20Voice%20%7C%20Gemini%202.0&descAlignY=52&descSize=16" alt="Header">
+
+<br/>
+
+<!-- Animated Typing Text -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=01B763&center=true&vCenter=true&width=700&lines=Pakistan+Court+Case+Predictor;AI+Legal+Assistant+for+Pakistan;Powered+by+Google+Gemini+2.0;Voice+Input+in+Urdu+Language;Smart+Case+Analysis+and+Predictions" alt="Typing SVG">
+</p>
+
+<br/>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-16.0.1-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Gemini_AI-2.0_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4.0-06B6D4?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/Ahmed-KHI/pakistan-court-case-predictor?style=social" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/Ahmed-KHI/pakistan-court-case-predictor?style=social" alt="Forks"/>
+  <img src="https://img.shields.io/badge/License-MIT-01B763?style=flat-square" alt="License"/>
+  <img src="https://img.shields.io/badge/Made_with-❤️_in_Pakistan-01B763?style=flat-square" alt="Pakistan"/>
+  <img src="https://api.visitorbadge.io/api/visitors?path=Ahmed-KHI%2Fpakistan-court-case-predictor&countColor=%2301B763" alt="Visitors"/>
+</p>
+
+<p align="center">
+  <a href="#-overview"><kbd>🏠 Overview</kbd></a>
+  <a href="#-features"><kbd>✨ Features</kbd></a>
+  <a href="#-demo"><kbd>🎥 Demo</kbd></a>
+  <a href="#-tech-stack"><kbd>🛠️ Tech</kbd></a>
+  <a href="#-getting-started"><kbd>🚀 Start</kbd></a>
+  <a href="#-deployment"><kbd>📦 Deploy</kbd></a>
+</p>
 
 
-
-<!-- Pakistani Flag Banner with Gradient -->
-
-<picture>
-
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=01411C&height=200&section=header&text=Pakistan%20Court%20Case%20Predictor&fontSize=40&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=AI-Powered%20Legal%20Assistant%20for%20Pakistani%20Justice%20System&descAlignY=51&descAlign=50">An AI-powered legal assistant that predicts court case outcomes using Pakistani law, powered by Google Gemini AI. Built for the **Governor House Karachi IT Initiative**.AI-powered legal case analysis system using Pakistani law. Provides instant predictions, cost estimates, and legal recommendations.
-
-  <img alt="Pakistan Court Case Predictor Banner" src="https://capsule-render.vercel.app/api?type=waving&color=01411C&height=200&section=header&text=Pakistan%20Court%20Case%20Predictor&fontSize=40&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=AI-Powered%20Legal%20Assistant%20for%20Pakistani%20Justice%20System&descAlignY=51&descAlign=50">
-
-</picture>
-
-
-
-# 🇵🇰 Pakistan Court Case Predictor## ✨ Features## ✨ Features
-
-
-
-### *Empowering Justice Through Artificial Intelligence*
-
-
-
-[![Next.js](https://img.shields.io/badge/Next.js-16.0-black?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)### 🎙️ Voice Assistant (Urdu)### 🎯 Core Features
-
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-
-[![Gemini AI](https://img.shields.io/badge/Gemini-2.0_Flash-4285F4?style=for-the-badge&logo=google&logoColor=white)](https://ai.google.dev/)- **Native Urdu Voice Input**: Speak naturally in Urdu using speech recognition- **AI Case Analysis**: Advanced case prediction using Gemini AI
-
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-01411C?style=for-the-badge)](LICENSE)- **Professional Urdu Audio Output**: Gemini Live API with Kore voice for authentic Pakistani Urdu accent- **Pakistan Law Database**: Integrated PPC, CrPC, Constitution, and case precedents
-
-[![Deploy with Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/new/clone?repository-url=https://github.com/Ahmed-KHI/pakistan-court-case-predictor)
-
-- **Real-time Conversation**: 10-question guided interview for case details collection- **Success Probability**: Percentage-based outcome prediction
-
-**🏛️ Built for Governor House Karachi IT Initiative 🎓**
-
-- **Bilingual Interface**: Full Urdu translation support for illiterate users- **Cost Estimation**: Realistic cost forecasts in PKR
-
-[🚀 Live Demo](#-demo) • [📖 Documentation](https://ahmed-khi.github.io/pakistan-court-case-predictor/) • [🐛 Report Bug](https://github.com/Ahmed-KHI/pakistan-court-case-predictor/issues) • [✨ Request Feature](https://github.com/Ahmed-KHI/pakistan-court-case-predictor/issues)
-
-- **Duration Estimates**: Expected case duration based on Pakistani courts
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-### 🤖 AI-Powered Prediction- **Risk Assessment**: Low/Medium/High risk classification
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 </div>
 
-- **Smart Case Analysis**: Powered by Google Gemini 2.0 Flash Exp
-
----
-
-- **Risk Assessment**: Win probability, case urgency, and financial impact analysis### 🎤 Voice Interface (Revolutionary!)
 
 ## 🌟 Overview
 
-- **Legal Recommendations**: Actionable advice based on Pakistani law- **Urdu Support**: Full Urdu voice input and output
+<table>
+<tr>
+<td width="50%">
 
-An intelligent legal assistant that leverages **Google Gemini 2.0 AI** to predict court case outcomes in Pakistan. Features **voice input in Urdu**, real-time translation, and comprehensive legal analysis based on **Pakistani law and precedents**.
+### 🎯 What is this?
 
-- **Relevant Laws**: Automatic identification of applicable Pakistani legal statutes- **Multi-language**: Punjabi, Pashto, Sindhi support
+An **intelligent legal assistant** built with cutting-edge AI technology to help Pakistani citizens understand their court cases better. Powered by **Google Gemini 2.0**, this system analyzes case details and provides:
 
-> **🎯 Mission**: Making legal services accessible to every Pakistani citizen through AI-powered technology.
+- 📊 **Outcome Predictions** based on Pakistani law
+- 💰 **Cost Estimations** in PKR
+- ⏱️ **Timeline Forecasts** for case resolution
+- ⚖️ **Risk Assessment** with confidence scores
+- 🎙️ **Voice Input** in native Urdu language
 
-- **Similar Cases**: AI-found precedents from Pakistani legal history- **Illiterate-friendly**: No typing required
+</td>
+<td width="50%">
+
+
+
+<img src="https://img.shields.io/badge/Governor_House-Karachi_IT_Initiative-01B763?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDJMMiA3djEwYzAgNS41NSA4IDEwIDEwIDEwczEwLTQuNDUgMTAtMTBWN2wtMTAtNXoiLz48L3N2Zz4=" alt="Governor House"/>
+
+**Mission**: Democratize legal intelligence for Pakistani citizens using AI technology.
+
+**Impact**: Making justice system more accessible and transparent for everyone.
+
+</td>
+</tr>
+</table>
+
+---
+
+## ✨ Features
 
 <div align="center">
 
-- **Auto-extraction**: AI automatically extracts case details from speech
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/fluency/96/microphone.png" width="80"/>
 
-### 🎥 Demo Video
+### 🎙️ Voice Assistant
+**Native Urdu Speech**
+- Authentic Pakistani accent (Kore voice)
+- Real-time speech recognition
+- 10-question guided interview
+- Auto case detail extraction
 
-### 🎨 Modern UI
+</td>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/fluency/96/artificial-intelligence.png" width="80"/>
 
-*Coming Soon*
+### 🤖 AI Analysis
+**Gemini 2.0 Powered**
+- Advanced language model
+- Pakistani law precedents
+- Risk & confidence scoring
+- Multi-factor evaluation
 
-- Beautiful gradient design with Pakistani flag colors (green/white)### 📊 Advanced Analysis
+</td>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/fluency/96/translation.png" width="80"/>
+
+### 🌐 Bilingual
+**English + Urdu**
+- Real-time translation
+- Proper Urdu script (اردو)
+- Seamless language switching
+- Native font rendering
+
+</td>
+</tr>
+<tr>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/fluency/96/scales.png" width="80"/>
+
+### ⚖️ Predictions
+**Smart Outcomes**
+- Win/Lose probability
+- Settlement likelihood  
+- Case urgency level
+- Evidence strength analysis
+
+</td>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/fluency/96/money-bag.png" width="80"/>
+
+### 💰 Cost Estimates
+**Realistic PKR Forecasts**
+- Court fees breakdown
+- Lawyer charges estimate
+- Total cost projection
+- Timeline-based calculation
+
+</td>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/fluency/96/user-shield.png" width="80"/>
+
+### 🔐 Privacy
+**Secure & Private**
+- No data storage
+- Client-side processing
+- Secure API calls
+- Your data, your control
+
+</td>
+</tr>
+</table>
 
 </div>
 
-- Responsive mobile-first interface- **Key Factors**: Positive/negative impact analysis
 
 ---
 
-- Real-time translation toggle- **Relevant Laws**: Automatic identification of applicable statutes
+## 🛠️ Tech Stack
 
-## ✨ Key Features
+<div align="center">
 
-- Progress tracking for voice conversations- **Similar Cases**: Precedent case matching
-
+### Frontend Excellence
 <table>
-
-<tr>- Loading states and error handling- **Recommendations**: Actionable legal advice
-
-<td width="50%">
-
-
-
-### 🎙️ **Voice Assistant (Urdu)**
-
-- 🗣️ Native Urdu speech recognition## 🛠️ Tech Stack## 🚀 Getting Started
-
-- 🔊 Professional Kore voice (Gemini Live)
-
-- 📝 10-question guided interview
-
-- 🌐 Real-time speech-to-text
-
-- 🎯 Automatic case detail extraction- **Framework**: Next.js 16 (App Router)### Prerequisites
-
-
-
-</td>- **Language**: TypeScript 5- Node.js 18+ 
-
-<td width="50%">
-
-- **Styling**: Tailwind CSS 4- Gemini API Key ([Get it here](https://makersuite.google.com/app/apikey))
-
-### 🤖 **AI-Powered Analysis**
-
-- 🧠 Google Gemini 2.0 Flash Exp- **AI**: Google Gemini 2.0 Flash Exp
-
-- ⚖️ Risk assessment & win probability
-
-- 💰 Cost estimation- **Voice**: Gemini Live WebSocket API (Kore voice)### Installation
-
-- 📊 Urgency classification
-
-- 📚 Pakistani law database- **Speech Recognition**: Web Speech API (Urdu - Pakistan)
-
-
-
-</td>- **Icons**: Lucide React```bash
-
-</tr>
-
-<tr>- **Deployment**: Vercel# Install dependencies
-
-<td width="50%">
-
-npm install
-
-### 🌐 **Bilingual Interface**
-
-- 🇵🇰 Full Urdu translation## 🚀 Getting Started
-
-- 🔄 Toggle between English/Urdu
-
-- 📖 AI-powered dynamic translation# Configure environment
-
-- ♿ Accessible for illiterate users
-
-- 🎨 RTL text support### Prerequisites# Edit .env.local and add your Gemini API key
-
-
-
-</td># GEMINI_API_KEY=your_key_here
-
-<td width="50%">
-
-- Node.js 18+ 
-
-### 📋 **Legal Intelligence**
-
-- 📜 Relevant Pakistani laws- Google Gemini API Key ([Get it here](https://aistudio.google.com/app/apikey))# Run development server
-
-- 🏛️ Similar case precedents
-
-- 💡 Actionable recommendationsnpm run dev
-
-- 📈 Case outcome prediction
-
-- 🎯 Strategic legal advice### Installation```
-
-
-
+<tr>
+<td align="center" width="25%">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" width="60"/>
+<br><b>Next.js 16</b>
+<br><sub>App Router + Turbopack</sub>
 </td>
-
+<td align="center" width="25%">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="60"/>
+<br><b>TypeScript 5</b>
+<br><sub>Type Safety</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="60"/>
+<br><b>Tailwind CSS 4</b>
+<br><sub>Modern Styling</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="60"/>
+<br><b>React 19</b>
+<br><sub>UI Library</sub>
+</td>
 </tr>
+</table>
 
-</table>1. **Clone the repository**Visit `http://localhost:3000`
+### AI & Voice Technology
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="https://www.gstatic.com/lamda/images/gemini_sparkle_v002_d4735304ff6292a690345.svg" width="60"/>
+<br><b>Gemini 2.0 Flash</b>
+<br><sub>AI Analysis Engine</sub>
+</td>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/color/96/voice-recognition-scan.png" width="60"/>
+<br><b>Gemini Live API</b>
+<br><sub>Kore Voice (Urdu)</sub>
+</td>
+<td align="center" width="33%">
+<img src="https://img.icons8.com/color/96/web.png" width="60"/>
+<br><b>WebSocket + Web Audio</b>
+<br><sub>Real-time Communication</sub>
+</td>
+</tr>
+</table>
 
+### Deployment & Tools
+<table>
+<tr>
+<td align="center" width="25%">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vercel/vercel-original.svg" width="60"/>
+<br><b>Vercel</b>
+<br><sub>Serverless Deploy</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="60"/>
+<br><b>Git</b>
+<br><sub>Version Control</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/96/eslint.png" width="60"/>
+<br><b>ESLint</b>
+<br><sub>Code Quality</sub>
+</td>
+<td align="center" width="25%">
+<img src="https://img.icons8.com/color/96/npm.png" width="60"/>
+<br><b>npm</b>
+<br><sub>Package Manager</sub>
+</td>
+</tr>
+</table>
 
+</div>
 
----```bash
-
-
-
-## 🛠️ Tech Stackgit clone https://github.com/YOUR_USERNAME/pakistan-court-predictor.git## 🔑 Environment Setup
-
-
-
-<div align="center">cd pakistan-court-predictor
-
-
-
-| Category | Technologies |```Edit `.env.local` file:
-
-|----------|-------------|
-
-| **Frontend** | ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js) ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) |
-
-| **Styling** | ![Tailwind CSS](https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3) |
-
-| **AI/ML** | ![Google Gemini](https://img.shields.io/badge/-Gemini_AI-4285F4?style=flat-square&logo=google&logoColor=white) ![WebSocket](https://img.shields.io/badge/-WebSocket-010101?style=flat-square&logo=socket.io) |2. **Install dependencies**```env
-
-| **Voice** | ![Web Speech API](https://img.shields.io/badge/-Web_Speech_API-FF6F00?style=flat-square) ![Gemini Live](https://img.shields.io/badge/-Gemini_Live-34A853?style=flat-square&logo=google) |
-
-| **Deployment** | ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) |```bashGEMINI_API_KEY=your_gemini_api_key_here
-
-
-
-</div>npm installNEXT_PUBLIC_APP_URL=http://localhost:3000
-
-
-
----``````
-
-
+---
 
 ## 🚀 Getting Started
 
+<details>
+<summary><b>📋 Prerequisites</b></summary>
 
+```bash
+✅ Node.js 18+ (Download from nodejs.org)
+✅ npm or yarn package manager
+✅ Google Gemini API Key (Free at aistudio.google.com/app/apikey)
+✅ Git installed
+```
 
-### Prerequisites3. **Set up environment variables**## 📁 Project Structure
+</details>
 
+<details open>
+<summary><b>⚡ Quick Installation</b></summary>
 
-
-- **Node.js** 18+ 📦
-
-- **npm** or **yarn** 🧶
-
-- **Google Gemini API Key** 🔑 ([Get it here](https://aistudio.google.com/app/apikey))Create a `.env.local` file in the root directory:```
-
-
-
-### ⚡ Quick Setuppakistan-court-predictor/
-
-
-
-```bash```env├── app/
-
-# 1️⃣ Clone the repository
-
-git clone https://github.com/Ahmed-KHI/pakistan-court-case-predictor.gitNEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key_here│   ├── api/
-
+### 1️⃣ Clone Repository
+```bash
+git clone https://github.com/Ahmed-KHI/pakistan-court-case-predictor.git
 cd pakistan-court-case-predictor
+```
 
-```│   │   ├── predict/route.ts      # Case analysis API
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
 
-# 2️⃣ Install dependencies
-
-npm install│   │   └── voice/route.ts        # Voice processing API
-
-
-
-# 3️⃣ Set up environment variables4. **Run the development server**│   ├── layout.tsx
-
+### 3️⃣ Setup Environment
+```bash
+# Copy .env.example to .env.local
 cp .env.example .env.local
 
-# Add your Gemini API key to .env.local```bash│   └── page.tsx                  # Main application
+# Edit .env.local and add your Gemini API key
+NEXT_PUBLIC_GEMINI_API_KEY=your_api_key_here
+```
 
-
-
-# 4️⃣ Run development servernpm run dev├── components/
-
+### 4️⃣ Run Development Server
+```bash
 npm run dev
-
-```│   ├── ui/                       # Reusable UI components
-
-# 5️⃣ Open browser
-
-# Navigate to http://localhost:3000│   ├── VoiceRecorder.tsx         # Voice input component
-
 ```
 
-5. **Open your browser**│   └── PredictionDisplay.tsx     # Results display
-
-### 🔐 Environment Variables
-
-├── lib/
-
-Create a `.env.local` file:
-
-Navigate to [http://localhost:3000](http://localhost:3000)│   ├── gemini.ts                 # Gemini API integration
-
-```env
-
-NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key_here│   ├── utils.ts                  # Utility functions
-
+### 5️⃣ Open Browser
+```bash
+🌐 http://localhost:3000
 ```
 
-## 📋 Usage│   └── legal-data/
+</details>
+
+<details>
+<summary><b>🏗️ Build for Production</b></summary>
+
+```bash
+# Create optimized production build
+npm run build
+
+# Start production server
+npm start
+```
+
+</details>
 
 ---
 
-│       └── pakistan-laws.ts      # Legal database
+# Install dependencies
+npm install
 
-## 📖 Usage Guide
+# Setup environment
+cp .env.example .env.local
+# Add your Gemini API key to .env.local
 
-### Voice Mode├── types/
+# Run development server
+npm run dev
+```
 
-### 🎙️ Voice Mode
-
-1. Click "Start Conversation" button│   └── index.ts                  # TypeScript types
-
-1. Click **"Start Conversation"** button
-
-2. Grant microphone permission2. Grant microphone permission└── .env.local                    # Environment variables
-
-3. Answer 10 questions in **Urdu**:
-
-   - Name, Age3. Answer 10 questions in Urdu```
-
-   - Case type (Criminal/Civil/Property)
-
-   - Case description4. Wait for AI analysis
-
-   - Date of incident
-
-   - Evidence availability5. View prediction with risk assessment## 🎯 Usage
-
-   - Location (City)
-
-   - Monthly income
-
-4. Wait for AI analysis
-
-5. View comprehensive prediction### Manual Mode### Text Input Mode
-
-
-
-### ✍️ Manual Mode1. Fill out the case input form1. Select "Text Input" on homepage
-
-
-
-1. Fill out the case input form2. Select case type2. Fill in case details
-
-2. Select case type
-
-3. Provide detailed case description3. Provide case description3. Click "Analyze Case"
-
-4. Click **"Analyze Case"**
-
-5. Review AI-generated insights4. Click "Analyze Case"4. View comprehensive prediction
-
-
-
-### 🌐 Translation5. View detailed prediction
-
-
-
-- Toggle between **English** ↔ **Urdu** using translation button### Voice Input Mode (Urdu)
-
-- Dynamic content translated via Gemini AI
-
-- Perfect for non-English speakers## 🌐 Deployment on Vercel1. Select "Voice Input" 
-
-
-
----2. Click microphone button
-
-
-
-## 🏗️ Project Structure1. Push your code to GitHub3. Speak case details in Urdu
-
-
-
-```2. Import project in Vercel4. AI extracts details automatically
-
-pakistan-court-case-predictor/
-
-├── 📁 app/3. Add environment variable: `NEXT_PUBLIC_GEMINI_API_KEY`5. Review and analyze
-
-│   ├── 📁 api/
-
-│   │   ├── 📁 predict/          # AI case prediction endpoint4. Deploy!
-
-│   │   ├── 📁 translate/        # Urdu translation service
-
-│   │   └── 📁 voice/            # Voice processing API## 🛠️ Tech Stack
-
-│   ├── 📄 layout.tsx            # Root layout with metadata
-
-│   └── 📄 page.tsx              # Main application page## 🤝 Contributing
-
-├── 📁 components/
-
-│   ├── 📄 ConversationalVoice.tsx   # Voice assistant component- **Framework**: Next.js 15 (App Router)
-
-│   └── 📄 PredictionDisplay.tsx     # Results visualization
-
-├── 📁 lib/This project is part of the Governor House Karachi IT Initiative. Contributions welcome!- **Language**: TypeScript
-
-│   ├── 📁 legal-data/           # Pakistani laws database
-
-│   └── 📄 utils.ts              # Utility functions- **AI**: Google Gemini 2.0 Flash
-
-├── 📁 types/
-
-│   └── 📄 case.ts               # TypeScript interfaces## 📝 License- **Styling**: Tailwind CSS
-
-├── 📁 public/                   # Static assets
-
-├── 📄 .env.example              # Environment template- **Voice**: Web Speech API
-
-├── 📄 .gitignore                # Git ignore rules
-
-├── 📄 package.json              # DependenciesMIT License- **Deployment**: Vercel
-
-├── 📄 tailwind.config.ts        # Tailwind configuration
-
-├── 📄 tsconfig.json             # TypeScript config
-
-└── 📄 README.md                 # Documentation
-
-```## 👨‍💻 Developer## ⚖️ Disclaimer
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 
 
 ---
 
+## 🎯 Usage Guide
 
+<table>
+<tr>
+<td width="50%">
 
-## 🎯 Core Features ExplainedBuilt with ❤️ for the Governor House Karachi IT Initiative**IMPORTANT**: This tool provides AI-generated predictions for **informational purposes only**. It is **NOT** a substitute for professional legal advice. Always consult with a qualified lawyer.
+### 🎙️ Voice Mode (Urdu)
 
+1. **Click** "Start Voice Conversation" 🎙️
+2. **Grant** microphone permission
+3. **Hear** greeting in Urdu: "السلام علیکم"
+4. **Answer** 10 questions naturally:
+   - آپ کا نام؟ (Your name?)
+   - عمر؟ (Age?)
+   - کیس کی قسم؟ (Case type?)
+   - تفصیل؟ (Description?)
+   - And more...
+5. **Receive** instant AI prediction
 
+**Benefits:**
+- ✅ Natural conversation flow
+- ✅ Authentic Pakistani accent
+- ✅ No typing required
+- ✅ Perfect for illiterate users
 
-### 🎤 Voice Recognition System
+</td>
+<td width="50%">
 
+### ⌨️ Manual Mode (Text)
 
+1. **Fill** case details form:
+   - Name, Age, Location
+   - Case Type (Criminal/Civil/Property)
+   - Description, Evidence
+   - Financial Status
+2. **Click** "Analyze Case" 📊
+3. **View** comprehensive results:
+   - Outcome prediction
+   - Cost estimation
+   - Timeline forecast
+   - Risk assessment
+4. **Toggle** Urdu translation 🌐
 
-- Uses **Web Speech API** with `ur-PK` (Urdu - Pakistan) language---## 🚀 Deployment
+**Benefits:**
+- ✅ Detailed input control
+- ✅ Review before submission
+- ✅ Edit anytime
+- ✅ Bilingual support
 
-- Automatic speech detection and transcription
+</td>
+</tr>
+</table>
 
-- Real-time response acknowledgment in Urdu
+---
 
-- Noise cancellation and error handling
+## 🛠️ Tech Stack
 
-**Made in Pakistan 🇵🇰 | Powered by AI 🤖**### Deploy to Vercel
+| Category | Technologies |
+|----------|-------------|
+| **Framework** | Next.js 16, React 19, TypeScript 5 |
+| **Styling** | Tailwind CSS 4 |
+| **AI/ML** | Google Gemini 2.0 Flash Exp |
+| **Voice** | Gemini Live WebSocket API (Kore voice) |
+| **Speech** | Web Speech API (ur-PK) |
+| **Deployment** | Vercel |
 
-### 🔊 Gemini Live Integration
-
-
-
-- **WebSocket** connection for real-time audio streaming```bash
-
-- **Kore voice** - authentic Pakistani Urdu accent# Install Vercel CLI
-
-- System instructions for text-to-speech behaviornpm i -g vercel
-
-- Audio queue management for seamless playback
-
-# Deploy
-
-### 🧠 AI Prediction Algorithmvercel
-
-
-
-```# Add environment variable in Vercel dashboard:
-
-Input → Case Analysis → Legal Context → Risk Assessment → Output# GEMINI_API_KEY=your_key
-
-  ↓         ↓              ↓                ↓              ↓```
-
-User    Gemini AI    Pakistani Law    Precedents    Comprehensive
-
-Data      Model        Database         Matching      Prediction## 📝 License
-
-```
-
-MIT License
-
-- **Risk Score**: 1-10 based on case complexity
-
-- **Win Probability**: Calculated from similar cases---
-
-- **Cost Estimation**: Based on case type and duration
-
-- **Urgency Level**: Low/Medium/High classification**Built with ❤️ for Pakistani legal system transparency**
-
-
-
----*Last Updated: November 2025*
-
+---
 
 ## 🌐 Deployment
 
-### Deploy to Vercel (Recommended)
+### Deploy to Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Ahmed-KHI/pakistan-court-case-predictor&env=NEXT_PUBLIC_GEMINI_API_KEY&envDescription=Google%20Gemini%20API%20Key&envLink=https://aistudio.google.com/app/apikey)
+<div align="center">
 
-**Or manually:**
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Ahmed-KHI/pakistan-court-case-predictor&env=NEXT_PUBLIC_GEMINI_API_KEY)
 
+</div>
+
+**Manual Steps:**
 1. Push code to GitHub
 2. Import project in [Vercel](https://vercel.com/new)
 3. Add environment variable: `NEXT_PUBLIC_GEMINI_API_KEY`
-4. Click **Deploy**
-5. Share your live URL! 🎉
+4. Deploy 🚀
 
 ### Build for Production
 
@@ -512,56 +412,85 @@ npm start
 
 ---
 
+## 📁 Project Structure
+
+```bash
+pakistan-court-case-predictor/
+│
+├── 📂 app/
+│   ├── 📂 api/
+│   │   ├── 📄 predict/route.ts      # AI case analysis endpoint
+│   │   ├── 📄 translate/route.ts    # Urdu translation endpoint
+│   │   └── 📄 voice/route.ts        # Voice processing endpoint
+│   ├── 📄 layout.tsx                # Root layout with metadata
+│   ├── 📄 page.tsx                  # Home page component
+│   └── 📄 globals.css               # Global styles
+│
+├── 📂 components/
+│   ├── 📄 ConversationalVoice.tsx   # Voice assistant with Gemini Live
+│   ├── 📄 PredictionDisplay.tsx     # AI prediction results UI
+│   └── 📂 ui/
+│       ├── 📄 card.tsx              # Card components
+│       ├── 📄 button.tsx            # Button components
+│       └── 📄 badge.tsx             # Badge components
+│
+├── 📂 lib/
+│   ├── 📄 gemini.ts                 # Gemini API client
+│   ├── 📄 utils.ts                  # Utility functions
+│   └── 📂 legal-data/
+│       └── 📄 pakistan-laws.ts      # Pakistani law database
+│
+├── 📂 docs/
+│   └── 📄 index.html                # GitHub Pages site
+│
+├── 📄 .env.local                    # Environment variables (create this)
+├── 📄 .env.example                  # Environment template
+├── 📄 vercel.json                   # Vercel deployment config
+├── 📄 README.md                     # This file
+└── 📄 LICENSE                       # MIT License
+```
+
+---
+
 ## 🤝 Contributing
-
-We welcome contributions from the community! 🌟
-
-### How to Contribute
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
-3. **Commit** your changes (`git commit -m '✨ Add AmazingFeature'`)
-4. **Push** to the branch (`git push origin feature/AmazingFeature`)
-5. **Open** a Pull Request
-
-### Contribution Guidelines
-
-- Follow TypeScript best practices
-- Write meaningful commit messages
-- Add comments for complex logic
-- Test before submitting PR
-- Update documentation if needed
-
----
-
-## 🐛 Issues & Support
-
-Found a bug? Have a suggestion? We'd love to hear from you!
-
-- 🐛 [Report Bug](https://github.com/Ahmed-KHI/pakistan-court-case-predictor/issues/new?labels=bug)
-- ✨ [Request Feature](https://github.com/Ahmed-KHI/pakistan-court-case-predictor/issues/new?labels=enhancement)
-- 💬 [Ask Question](https://github.com/Ahmed-KHI/pakistan-court-case-predictor/discussions)
-
----
-
-## 📊 Project Stats
 
 <div align="center">
 
-![GitHub stars](https://img.shields.io/github/stars/Ahmed-KHI/pakistan-court-case-predictor?style=social)
-![GitHub forks](https://img.shields.io/github/forks/Ahmed-KHI/pakistan-court-case-predictor?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/Ahmed-KHI/pakistan-court-case-predictor?style=social)
-![GitHub issues](https://img.shields.io/github/issues/Ahmed-KHI/pakistan-court-case-predictor)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/Ahmed-KHI/pakistan-court-case-predictor)
-![GitHub last commit](https://img.shields.io/github/last-commit/Ahmed-KHI/pakistan-court-case-predictor)
+### We Welcome Contributions! 🌟
+
+<img src="https://contrib.rocks/image?repo=Ahmed-KHI/pakistan-court-case-predictor" alt="Contributors"/>
 
 </div>
 
+**How to Contribute:**
+
+1. 🍴 **Fork** the repository
+2. 🌿 **Create** feature branch: `git checkout -b feature/AmazingFeature`
+3. 💾 **Commit** changes: `git commit -m 'Add: AmazingFeature'`
+4. 📤 **Push** to branch: `git push origin feature/AmazingFeature`
+5. 🔃 **Open** Pull Request
+
+**Contribution Ideas:**
+- 🐛 Bug fixes and improvements
+- ✨ New features (e.g., more case types, additional languages)
+- 📚 Documentation improvements
+- 🎨 UI/UX enhancements
+- 🧪 Test coverage
+
 ---
 
-## 📜 License
+## � License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+<div align="center">
+
+**MIT License** © 2025 [Muhammad Ahmed](https://github.com/Ahmed-KHI)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-01B763.svg?style=for-the-badge)](LICENSE)
+
+This project is free and open-source software licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for full details.
+
+</div>
 
 ---
 
@@ -569,12 +498,14 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 <div align="center">
 
-### Ahmed Ali (Ahmed-KHI)
+<img src="https://github.com/Ahmed-KHI.png" width="150" style="border-radius: 50%; border: 3px solid #01B763;"/>
+
+### **Muhammad Ahmed**
+**Full Stack Developer | AI Enthusiast | Pakistan 🇵🇰**
 
 [![GitHub](https://img.shields.io/badge/GitHub-Ahmed--KHI-181717?style=for-the-badge&logo=github)](https://github.com/Ahmed-KHI)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/ahmed-khi)
-
-**Built with ❤️ in Karachi, Pakistan**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mirza-muhammad-ahmed-09b932209)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ahmedshariffamily@gmail.com)
 
 </div>
 
@@ -584,63 +515,96 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 <div align="center">
 
-### Special Thanks To
+**Special Thanks To:**
 
 🏛️ **Governor House Karachi IT Initiative**  
-For providing the platform and support
+For providing the platform and inspiration
 
-🤖 **Google Gemini AI**  
-For advanced language models and voice capabilities
+🤖 **Google Gemini Team**  
+For the powerful AI technology
 
-🇵🇰 **Pakistani Legal System**  
-For providing the legal framework and precedents
+🇵🇰 **Pakistan Tech Community**  
+For continuous support and feedback
 
-👥 **Open Source Community**  
-For amazing tools and libraries
+⚖️ **Legal Experts**  
+For guidance on Pakistani law implementation
 
 </div>
 
 ---
 
-## 🔮 Roadmap
-
-- [x] ✅ Voice input in Urdu
-- [x] ✅ AI-powered predictions
-- [x] ✅ Bilingual interface
-- [x] ✅ Real-time translation
-- [ ] 📄 Document upload support (PDFs, images)
-- [ ] 👨‍⚖️ Lawyer directory integration
-- [ ] 📅 Court date tracker
-- [ ] 📱 Mobile app (React Native)
-- [ ] 🔔 SMS/WhatsApp notifications
-- [ ] 🌍 Multi-language (Sindhi, Punjabi, Pashto)
-- [ ] 📝 Legal document generator
-- [ ] 📊 Case history tracking
-- [ ] 🔍 Case search engine
-
----
-
-## 📞 Contact & Support
+## 📊 Repository Stats
 
 <div align="center">
 
-**Have questions? Need help?**
+![GitHub Stars](https://img.shields.io/github/stars/Ahmed-KHI/pakistan-court-case-predictor?style=for-the-badge&color=01B763)
+![GitHub Forks](https://img.shields.io/github/forks/Ahmed-KHI/pakistan-court-case-predictor?style=for-the-badge&color=01B763)
+![GitHub Issues](https://img.shields.io/github/issues/Ahmed-KHI/pakistan-court-case-predictor?style=for-the-badge&color=01B763)
+![GitHub Pull Requests](https://img.shields.io/github/issues-pr/Ahmed-KHI/pakistan-court-case-predictor?style=for-the-badge&color=01B763)
 
-📧 Email: ahmedshariffamily@gmail.com  
-💬 Discord: [https://discord.com/users/1211977466898419776](#)  
-🐦 Twitter: [@MirzaMuham93456](#)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/Ahmed-KHI/pakistan-court-case-predictor?style=for-the-badge&color=3178C6)
+![GitHub Repo Size](https://img.shields.io/github/repo-size/Ahmed-KHI/pakistan-court-case-predictor?style=for-the-badge&color=3178C6)
+![GitHub Language](https://img.shields.io/github/languages/top/Ahmed-KHI/pakistan-court-case-predictor?style=for-the-badge&color=3178C6)
+![GitHub License](https://img.shields.io/github/license/Ahmed-KHI/pakistan-court-case-predictor?style=for-the-badge&color=3178C6)
 
-**⭐ Star this repo if you find it helpful!**
+</div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=01411C&height=120&section=footer">
-  <img alt="Footer" src="https://capsule-render.vercel.app/api?type=waving&color=01411C&height=120&section=footer">
-</picture>
+## 🎯 Roadmap
+
+- [x] ✅ Voice input in Urdu with Pakistani accent
+- [x] ✅ AI-powered case prediction
+- [x] ✅ Bilingual interface (English + Urdu)
+- [x] ✅ Cost estimation in PKR
+- [x] ✅ Risk assessment system
+- [ ] 🔄 Mobile app (React Native)
+- [ ] 🔄 More languages support (Punjabi, Sindhi, Pashto)
+- [ ] 🔄 Integration with court databases
+- [ ] 🔄 Lawyer matching system
+- [ ] 🔄 Document generation (case filing templates)
+- [ ] 🔄 Chat support with legal AI assistant
+
+---
+
+## ⚠️ Disclaimer
+
+> **Important:** This tool provides AI-generated predictions for educational purposes only. It should NOT be considered as professional legal advice. Always consult with a qualified lawyer for actual legal matters. The predictions are based on AI analysis and may not reflect actual court outcomes.
+
+---
+
+<div align="center">
+
+## 💚 Support This Project
+
+If you find this project helpful, please consider:
+
+⭐ **Starring** this repository  
+🍴 **Forking** to contribute  
+🐛 **Reporting** issues  
+📢 **Sharing** with others  
+☕ **Supporting** development
+
+</div>
+
+<div align="center">
+
+**Muhammad Ahmed (Ahmed-KHI)**
+
+<img src="https://img.shields.io/badge/GitHub-Ahmed--KHI-181717?style=flat&logo=github" alt="GitHub">
+
+
+</div>
+
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=01B763&height=100&section=footer" alt="Footer">
 
 ### Made in Pakistan 🇵🇰 | Powered by AI 🤖 | Built for Justice ⚖️
 
-**© 2025 Pakistan Court Case Predictor. All rights reserved.**
+**© 2025 Pakistan Court Case Predictor. All Rights Reserved.**
 
 </div>
