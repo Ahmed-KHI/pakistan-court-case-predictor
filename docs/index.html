@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI-powered legal assistant for Pakistani court cases with voice input in Urdu">
+    <meta name="keywords" content="Pakistan, Court, AI, Legal, Urdu, Voice Assistant, Gemini">
+    <title>🇵🇰 Pakistan Court Case Predictor | AI Legal Assistant</title>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Pakistan Court Case Predictor">
+    <meta property="og:description" content="AI-powered legal assistant for Pakistani justice system">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ahmed-khi.github.io/pakistan-court-case-predictor/">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        /* Pakistani Flag Background */
+        .flag-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(135deg, #01411C 0%, #01411C 75%, #FFFFFF 75%, #FFFFFF 100%);
+            opacity: 0.05;
+        }
+
+        .star-moon {
+            position: fixed;
+            top: 20%;
+            right: 30%;
+            font-size: 200px;
+            opacity: 0.03;
+            z-index: -1;
+            color: #FFFFFF;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #01411C 0%, #0A5C2C 100%);
+            color: white;
+            padding: 3rem 2rem;
+            text-align: center;
+            box-shadow: 0 4px 20px rgba(1, 65, 28, 0.3);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            animation: fadeInDown 1s ease;
+        }
+
+        header p {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            animation: fadeInUp 1s ease 0.3s both;
+        }
+
+        .flag-icon {
+            font-size: 4rem;
+            animation: wave 3s infinite;
+            display: inline-block;
+        }
+
+        @keyframes wave {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(-10deg); }
+            75% { transform: rotate(10deg); }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Navigation */
+        nav {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 1rem;
+        }
+
+        nav li {
+            margin: 0 1.5rem;
+        }
+
+        nav a {
+            color: #01411C;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+        }
+
+        nav a:hover {
+            color: white;
+            background: #01411C;
+        }
+
+        /* Feature Cards */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-left: 5px solid #01411C;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(1, 65, 28, 0.2);
+        }
+
+        .feature-card h3 {
+            color: #01411C;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Badges */
+        .badges {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .badge {
+            background: #01411C;
+            color: white;
+            padding: 0.7rem 1.5rem;
+            border-radius: 25px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: transform 0.3s, background 0.3s;
+            display: inline-block;
+        }
+
+        .badge:hover {
+            transform: scale(1.05);
+            background: #0A5C2C;
+        }
+
+        /* CTA Section */
+        .cta {
+            background: linear-gradient(135deg, #01411C 0%, #0A5C2C 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            margin: 3rem 0;
+            border-radius: 20px;
+        }
+
+        .cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .cta-button {
+            background: white;
+            color: #01411C;
+            padding: 1rem 3rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            display: inline-block;
+            margin-top: 1rem;
+            transition: transform 0.3s;
+        }
+
+        .cta-button:hover {
+            transform: scale(1.1);
+        }
+
+        /* Tech Stack */
+        .tech-stack {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+
+        .tech-item {
+            text-align: center;
+            padding: 1rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+            min-width: 150px;
+        }
+
+        .tech-item img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Footer */
+        footer {
+            background: #01411C;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+            
+            header p {
+                font-size: 1rem;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav li {
+                margin: 0.5rem 0;
+            }
+        }
+
+        /* Section Styling */
+        section {
+            margin: 4rem 0;
+        }
+
+        section h2 {
+            color: #01411C;
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            position: relative;
+        }
+
+        section h2::after {
+            content: '';
+            display: block;
+            width: 100px;
+            height: 4px;
+            background: #01411C;
+            margin: 1rem auto;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Pakistani Flag Background -->
+    <div class="flag-bg"></div>
+    <div class="star-moon">☪️</div>
+
+    <!-- Header -->
+    <header>
+        <div class="flag-icon">🇵🇰</div>
+        <h1>Pakistan Court Case Predictor</h1>
+        <p>AI-Powered Legal Assistant for Pakistani Justice System</p>
+        <div class="badges" style="margin-top: 2rem;">
+            <a href="https://github.com/Ahmed-KHI/pakistan-court-case-predictor" class="badge">⭐ Star on GitHub</a>
+            <a href="#demo" class="badge">🚀 Live Demo</a>
+            <a href="#features" class="badge">✨ Features</a>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#tech">Tech Stack</a></li>
+            <li><a href="#demo">Demo</a></li>
+            <li><a href="#docs">Documentation</a></li>
+            <li><a href="#contribute">Contribute</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Overview Section -->
+        <section id="overview">
+            <h2>🌟 Project Overview</h2>
+            <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto;">
+                An intelligent legal assistant that leverages <strong>Google Gemini 2.0 AI</strong> to predict court case outcomes in Pakistan. 
+                Features <strong>voice input in Urdu</strong>, real-time translation, and comprehensive legal analysis based on 
+                <strong>Pakistani law and precedents</strong>.
+            </p>
+            <p style="text-align: center; margin-top: 1rem; font-style: italic; color: #01411C;">
+                Built with ❤️ for Governor House Karachi IT Initiative
+            </p>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features">
+            <h2>✨ Key Features</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <div class="feature-icon">🎙️</div>
+                    <h3>Voice Assistant (Urdu)</h3>
+                    <p>Speak naturally in Urdu with professional Kore voice powered by Gemini Live API. 10-question guided interview for comprehensive case analysis.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>AI-Powered Prediction</h3>
+                    <p>Advanced case analysis using Google Gemini 2.0. Get risk assessment, win probability, cost estimation, and urgency classification.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>Bilingual Interface</h3>
+                    <p>Full Urdu translation with toggle support. AI-powered dynamic content translation perfect for illiterate users.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">⚖️</div>
+                    <h3>Legal Intelligence</h3>
+                    <p>Access relevant Pakistani laws, similar case precedents, and actionable legal recommendations based on AI analysis.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Risk Assessment</h3>
+                    <p>Comprehensive risk scoring (1-10) based on case complexity, evidence, and historical precedents from Pakistani courts.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Cost Estimation</h3>
+                    <p>Accurate financial impact analysis including court fees, lawyer costs, and expected case duration.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Stack Section -->
+        <section id="tech">
+            <h2>🛠️ Technology Stack</h2>
+            <div class="tech-stack">
+                <div class="tech-item">
+                    <div style="font-size: 3rem;">⚛️</div>
+                    <strong>Next.js 16</strong>
+                    <p>React Framework</p>
+                </div>
+                <div class="tech-item">
+                    <div style="font-size: 3rem;">📘</div>
+                    <strong>TypeScript</strong>
+                    <p>Type Safety</p>
+                </div>
+                <div class="tech-item">
+                    <div style="font-size: 3rem;">🎨</div>
+                    <strong>Tailwind CSS</strong>
+                    <p>Styling</p>
+                </div>
+                <div class="tech-item">
+                    <div style="font-size: 3rem;">🤖</div>
+                    <strong>Gemini AI</strong>
+                    <p>2.0 Flash Exp</p>
+                </div>
+                <div class="tech-item">
+                    <div style="font-size: 3rem;">🎤</div>
+                    <strong>Web Speech</strong>
+                    <p>Voice Input</p>
+                </div>
+                <div class="tech-item">
+                    <div style="font-size: 3rem;">▲</div>
+                    <strong>Vercel</strong>
+                    <p>Deployment</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="demo" class="cta">
+            <h2>🚀 Try It Live!</h2>
+            <p style="font-size: 1.2rem;">Experience the future of legal assistance in Pakistan</p>
+            <a href="#" class="cta-button">Launch Demo →</a>
+            <p style="margin-top: 2rem; opacity: 0.9;">Or clone from GitHub and run locally</p>
+        </section>
+
+        <!-- Documentation Section -->
+        <section id="docs">
+            <h2>📖 Documentation</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <h3>🚀 Quick Start</h3>
+                    <p>Get up and running in 5 minutes with our comprehensive installation guide.</p>
+                    <a href="https://github.com/Ahmed-KHI/pakistan-court-case-predictor#-getting-started" 
+                       style="color: #01411C; font-weight: bold;">Read More →</a>
+                </div>
+
+                <div class="feature-card">
+                    <h3>📋 API Reference</h3>
+                    <p>Complete API documentation for prediction, translation, and voice processing endpoints.</p>
+                    <a href="https://github.com/Ahmed-KHI/pakistan-court-case-predictor#-project-structure" 
+                       style="color: #01411C; font-weight: bold;">Explore APIs →</a>
+                </div>
+
+                <div class="feature-card">
+                    <h3>🎯 Usage Guide</h3>
+                    <p>Step-by-step tutorials for voice mode, manual input, and translation features.</p>
+                    <a href="https://github.com/Ahmed-KHI/pakistan-court-case-predictor#-usage-guide" 
+                       style="color: #01411C; font-weight: bold;">Learn How →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contribute Section -->
+        <section id="contribute">
+            <h2>🤝 Contribute</h2>
+            <p style="text-align: center; font-size: 1.2rem; max-width: 800px; margin: 0 auto 2rem;">
+                We welcome contributions from the community! Help us make legal services accessible to every Pakistani citizen.
+            </p>
+            <div style="text-align: center;">
+                <a href="https://github.com/Ahmed-KHI/pakistan-court-case-predictor/fork" class="badge">🍴 Fork Repository</a>
+                <a href="https://github.com/Ahmed-KHI/pakistan-court-case-predictor/issues" class="badge">🐛 Report Issues</a>
+                <a href="https://github.com/Ahmed-KHI/pakistan-court-case-predictor/pulls" class="badge">🔀 Pull Requests</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p><strong>Pakistan Court Case Predictor</strong></p>
+        <p>Built for <a href="#">Governor House Karachi IT Initiative</a></p>
+        <p style="margin-top: 1rem;">Made in Pakistan 🇵🇰 | Powered by AI 🤖 | Built for Justice ⚖️</p>
+        <p style="margin-top: 1rem;">
+            <a href="https://github.com/Ahmed-KHI">GitHub</a> | 
+            <a href="#">LinkedIn</a> | 
+            <a href="#">Twitter</a>
+        </p>
+        <p style="margin-top: 1rem; font-size: 0.9rem;">© 2025 All rights reserved | MIT License</p>
+    </footer>
+</body>
+</html>

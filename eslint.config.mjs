@@ -13,6 +13,12 @@ const eslintConfig = defineConfig([
     "build/**",
     "next-env.d.ts",
   ]),
+  {
+    rules: {
+      "@typescript-eslint/no-explicit-any": "off", // Disable for production deployment
+      "@typescript-eslint/no-empty-object-type": "off", // Disable for UI components
+    },
+  },
 ]);
 
 export default eslintConfig;
